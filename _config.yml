@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Hung Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "A senior undergrad student pursuing a computer science degree with a minor in mathematics"
+  location         : "Houston"
+  employer         : "University of Houston"
   uri              : # URL
   email            : "hungliu.contact@gmail.com" 
 
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Junny03.github.io"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

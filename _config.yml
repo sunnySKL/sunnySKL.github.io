@@ -27,7 +27,7 @@ author:
   bio              : "A passionate senior undergrad student pursuing a computer science degree with a minor in mathematics"
   location         : "Houston"
   employer         : "University of Houston"
-  uri              : "https://www.linkedin.com/in/hung-liu0/"
+  uri              : #
   email            : "hungliu.contact@gmail.com" 
   resume           : "https://docs.google.com/document/d/1147kHWrPu4QcRWS0uzZQ48QtdEkz7Mmi4snWcgCXO8c/edit?usp=drive_link"
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # hung-liu0
+  linkedin         : "https://www.linkedin.com/in/hung-liu0/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

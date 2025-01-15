@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Hung Liu"
 description              : &description "personal description"
 url                      : "https://junny03.github.io/"
-baseurl                  : "https://blue-maye-28.tiiny.site" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Junny03.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.

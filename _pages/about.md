@@ -35,4 +35,5 @@ Hi, I'm **Hung Liu**, a seninor ungraduate pursing a Bachelor of Computer Scienc
 Feel free to explore my repositories to see the projects I’ve worked on. I’m always open to collaborations and discussions on data analytics, algorithms, and beyond!
 
 Connect with me: [LinkedIn](hung-liu0) | [Email](mailto:hungliu.contact@gmail.com)
+View my resume: [Resume](files/Resume.pdf)
 

@@ -34,7 +34,5 @@ Hi, I'm **Hung Liu**, a recent graduate with a Bachelor of Computer Science from
 
 Feel free to explore my repositories to see the projects I’ve worked on. I’m always open to collaborations and discussions on data analytics, algorithms, and beyond!
 
-Connect with me: [LinkedIn](#) | [Email](mailto:your.email@example.com)
+Connect with me: [LinkedIn](hung-liu0) | [Email](mailto:hungliu.contact@gmail.com)
 
-
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.

@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome to My Academic Page
-
 Hi, I'm **Hung Liu**, a recent graduate with a Bachelor of Computer Science from Indonesia, currently pursuing a career as a data analyst. My journey has been fueled by a passion for data-driven insights and problem-solving. I'm committed to continuous learning and leveraging my skills to make a meaningful impact in the field.
 
 ## Skills and Expertise
@@ -31,7 +29,6 @@ Hi, I'm **Hung Liu**, a recent graduate with a Bachelor of Computer Science from
 - Conducted experiments on memory fragmentation using AVL trees with large datasets.
 
 ## Hobbies and Interests
-- Playing *Monster Hunter: World* with optimized builds.
 - Volunteering for community programs like disability tennis camps.
 - Solving Rubik's cubes and exploring logical puzzles.
 

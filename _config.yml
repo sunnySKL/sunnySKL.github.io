@@ -12,9 +12,9 @@ title                    : "Hung's Homepage"
 title_separator          : "-"
 name                     : &name "Hung Liu"
 description              : &description "personal description"
-url                      : "https://junny03.github.io/"
+url                      : "https://sunnySKL.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Junny03.github.io"
+repository               : "sunnySKL.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

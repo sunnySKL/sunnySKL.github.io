@@ -28,9 +28,6 @@ Hi, I'm **Hung Liu**, a seninor ungraduate pursing a Bachelor of Computer Scienc
 - Explored data-driven solutions for postpartum physical activity interventions.
 - Conducted experiments on memory fragmentation using AVL trees with large datasets.
 
-## Hobbies and Interests
-- Volunteering for community programs like disability tennis camps.
-- Solving Rubik's cubes and exploring logical puzzles.
 
 Feel free to explore my repositories to see the projects I’ve worked on. I’m always open to collaborations and discussions on data analytics, algorithms, and beyond!
 

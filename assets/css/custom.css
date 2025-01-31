@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
-    color: #1E3A8A;
+    color: #0d0d0d;
     transition: background-color 0.3s, color 0.3s;
 }
 

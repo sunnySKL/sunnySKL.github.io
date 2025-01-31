@@ -41,7 +41,7 @@ body {
     justify-content: flex-start; /* Change from center */
     text-align: center;
     gap: 20px; /* Adds spacing between elements */
-    padding-top: 50px; /* Ensures top spacing */
+    padding-top: 80px; /* Ensures top spacing */
 }
 
 

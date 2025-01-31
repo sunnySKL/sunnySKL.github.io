@@ -46,12 +46,17 @@ body {
     border-radius: 50%;
     border: 3px solid white;
     margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
 }
 
 .sidebar p, .sidebar h1, .sidebar h2, .sidebar h3 {
     color: white;
     text-align: center;
     width: 100%;
+    margin-top: 10px;
 }
 /* Buttons */
 .button {

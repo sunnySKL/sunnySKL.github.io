@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const toggleButton = document.createElement("button");
-    toggleButton.textContent = "Toggle Dark Mode";
+    toggleButton.textContent = "Dark Mode";
     toggleButton.classList.add("button");
     toggleButton.style.position = "fixed";
     toggleButton.style.bottom = "20px";

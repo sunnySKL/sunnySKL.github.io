@@ -39,6 +39,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .sidebar img {
@@ -47,9 +48,10 @@ body {
     margin-top: 20px;
 }
 
-.sidebar p {
+.sidebar p, .sidebar h1, .sidebar h2, .sidebar h3 {
     color: white;
     text-align: center;
+    width: 100%;
 }
 /* Buttons */
 .button {

@@ -24,6 +24,23 @@ body {
     border-radius: 5px;
 }
 
+/* Sidebar */
+.sidebar {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.sidebar p {
+    color: white;
+}
+
 /* Buttons */
 .button {
     background-color: #3B82F6;
@@ -47,6 +64,10 @@ body {
 
 .dark-mode .navbar {
     background-color: #1E293B;
+}
+
+.dark-mode .sidebar {
+    background-color: #0F172A;
 }
 
 .dark-mode .button {

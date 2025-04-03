@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm **Hung Liu**, a seninor ungraduate pursing a Bachelor of Computer Science from Texas, currently pursuing a career as a data analyst. My journey has been fueled by a passion for data-driven insights and problem-solving. I'm committed to continuous learning and leveraging my skills to make a meaningful impact in the field.
+Hi, I'm **Hung Liu**, a senior ungraduate pursing a Bachelor of Computer Science from Texas, currently pursuing a career as a data analyst. My journey has been fueled by a passion for data-driven insights and problem-solving. I'm committed to continuous learning and leveraging my skills to make a meaningful impact in the field.
 
 ## Skills and Expertise
 - **Programming Languages**: Python, R, SQL, C++, C

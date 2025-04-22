@@ -1,6 +1,6 @@
 ---
 title: "Web-based User Management System"
-excerpt: "A showcase of my project with embedded YouTube video"
+excerpt: "Project for COSC 4353"
 collection: portfolio
 ---
 

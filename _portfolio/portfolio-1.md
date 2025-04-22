@@ -10,20 +10,20 @@ This project is a secure and scalable web-based application designed for managin
 
 
 ## Project Demo
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6ZS2Kb2av5s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6ZS2Kb2av5s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Key Features:
 Microsoft Office 365 Authentication:
 Only verified UH (University of Houston) users can log in through Microsoft Graph API integration.
 
 Role-Based Access Control:
-Supports multiple user roles including Student, Instructor, Admin, and future expansion to Advisors, Deans, etc. Role-based route protection is enforced.
+Supports multiple user roles including Student, Admin, and future expansion to Counselors, Directors, etc. Role-based route protection is enforced.
 
 Form Submission & Drafts:
-Students can fill out forms such as the Special Circumstance Form and Instructor-Initiated Drop Form, save drafts, or submit for approval.
+Students can fill out forms such as the Special Circumstance Form, Instructor-Initiated Drop Form, Tution Exemption Form, and an Affidavit form, save drafts, or submit for approval.
 
 Multi-Step Approval Workflow:
-Once submitted, forms follow a stepwise approval process (e.g., Advisor → Dean → Chair), and each approver has a custom dashboard to manage pending requests.
+Once submitted, forms follow a stepwise approval process (e.g., Counselor → Director → Supervisor), and each approver has a custom dashboard to manage pending requests.
 
 Dynamic PDF Generation (LaTeX):
 A PDF version of each submission is generated using LaTeX, automatically updated with signatures and approval decisions at every step.

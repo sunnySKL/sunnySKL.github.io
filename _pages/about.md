@@ -10,11 +10,14 @@ redirect_from:
 Hi, I'm **Hung Liu**, a senior ungraduate pursing a Bachelor of Computer Science from Texas, currently pursuing a career as a data analyst. My journey has been fueled by a passion for data-driven insights and problem-solving. I'm committed to continuous learning and leveraging my skills to make a meaningful impact in the field.
 
 ## Skills and Expertise
-- **Programming Languages**: Python, R, SQL, C++, C
-- **Data Analysis**: Statistical analysis, data cleaning, and visualization
-- **Tools and Technologies**: Excel, Tableau, Power BI, Jupyter Notebooks
-- **Machine Learning**: Regression, classification, clustering
-- **Other Technical Skills**: Git/GitHub, algorithms, and data structures
+- **Programming Languages**: Python, PHP, SQL, C++, C  
+- **Web Development**: HTML, CSS, JavaScript, Jinja2, Flask, role-based routing, Microsoft OAuth (Graph API)  
+- **Database Design**: PostgreSQL, MySQL, schema normalization (1NF–3NF), foreign keys, ER modeling, JSON column storage  
+- **Authentication & Authorization**: Office365 OAuth 2.0 login, session-based authentication, role-based access control  
+- **PDF Generation & Workflow Logic**: Dynamic LaTeX PDF generation, signature/image embedding, multi-step approval workflow  
+- **Tools and Technologies**: Docker, Git/GitHub, MySQL Workbench, pgAdmin, Railway (cloud deployment), LaTeX  
+- **Project Experience**: Full-stack academic request management system with CRUD operations, dashboards, form routing  
+
 
 ## Academic Interests
 - Automata theory and computability

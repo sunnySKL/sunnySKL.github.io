@@ -10,15 +10,28 @@ This project is a comprehensive web-based system developed for simulating the op
 
 The goal of the system is to digitally manage last-mile deliveries, package status tracking, customer requests, inventory management, and retail purchases, while ensuring data consistency and real-time visibility for stakeholders.
 
-<h2>Project Screenshots</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 16px;">
-  <img src="/3380pics/admin.png" alt="Admin" style="width: 45%;" />
-  <img src="/3380pics/clerk.png" alt="Clerk" style="width: 45%;" />
-  <img src="/3380pics/customer_sup.png" alt="Customer Support" style="width: 45%;" />
-  <img src="/3380pics/customer.png" alt="Customer" style="width: 45%;" />
-  <img src="/3380pics/driver.png" alt="Driver" style="width: 45%;" />
-  <img src="/3380pics/home.png" alt="Home" style="width: 45%;" />
-</div>
+## Project Screenshots
+
+### Home Page
+![Home Page](/3380pics/home.png)
+
+### Admin Dashboard
+![Admin Dashboard](/3380pics/admin.png)
+
+### Clerk View
+![Clerk View](/3380pics/clerk.png)
+
+### Customer Support View
+![Customer Support View](/3380pics/customer_sup.png)
+
+### Customer View
+![Customer View](/3380pics/customer.png)
+
+### Driver View
+![Driver View](/3380pics/driver.png)
+
+
+
 
 
 

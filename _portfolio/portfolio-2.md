@@ -10,41 +10,35 @@ This project is a comprehensive web-based system developed for simulating the op
 
 The goal of the system is to digitally manage last-mile deliveries, package status tracking, customer requests, inventory management, and retail purchases, while ensuring data consistency and real-time visibility for stakeholders.
 
-<h2>Project Screenshots</h2>
+## Project Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between;">
+### Home Page  
+![Home Page](/3380pics/home.png)  
+*Landing page providing user login access and an overview of system features like shipment, inventory, and support.*
 
-  <div style="width: 48%;">
-    <img src="/3380pics/admin.png" alt="Admin Dashboard" style="width: 100%;" />
-    <p><em>Admin dashboard for managing users, facilities, vehicles, inventory, and viewing system-wide reports.</em></p>
-  </div>
+### Customer View  
+![Customer Dashboard](/3380pics/customer.png)  
+*Portal for customers to send packages, track deliveries, manage profiles, purchase shop items, and submit support tickets.*
 
-  <div style="width: 48%;">
-    <img src="/3380pics/clerk.png" alt="Clerk View" style="width: 100%;" />
-    <p><em>Clerk interface for handling package intake, processing shop sales, and scanning deliveries at the facility.</em></p>
-  </div>
+### Admin Dashboard  
+![Admin Dashboard](/3380pics/admin.png)  
+*Admin panel with full system access, including user, facility, inventory, and vehicle management, plus detailed analytics.*
 
-  <div style="width: 48%;">
-    <img src="/3380pics/customer_sup.png" alt="Customer Support View" style="width: 100%;" />
-    <p><em>Customer support dashboard to manage, respond to, and resolve support tickets from users.</em></p>
-  </div>
+### Manager Dashboard  
+![Manager Dashboard](/3380pics/manager.png)  
+*Manager interface for overseeing facility operations, managing employees, viewing reports, and handling support tickets.*
 
-  <div style="width: 48%;">
-    <img src="/3380pics/customer.png" alt="Customer View" style="width: 100%;" />
-    <p><em>Customer portal to send packages, track shipments, view purchase history, and create support tickets.</em></p>
-  </div>
+### Clerk View  
+![Clerk Dashboard](/3380pics/clerk.png)  
+*Clerk view for processing incoming packages, managing sales transactions, and scanning deliveries at facility checkpoints.*
 
-  <div style="width: 48%;">
-    <img src="/3380pics/driver.png" alt="Driver View" style="width: 100%;" />
-    <p><em>Driver interface for managing assigned delivery trips and updating package statuses during transit.</em></p>
-  </div>
+### Customer Support View  
+![Customer Support Dashboard](/3380pics/customer_sup.png)  
+*Support dashboard for responding to submitted tickets, resolving user issues, and managing communication workflows.*
 
-  <div style="width: 48%;">
-    <img src="/3380pics/home.png" alt="Home Page" style="width: 100%;" />
-    <p><em>Landing page with access to user login, system overview, and quick navigation to major features.</em></p>
-  </div>
-
-</div>
+### Driver View  
+![Driver Dashboard](/3380pics/driver.png)  
+*Driver interface to manage assigned trips, update package statuses in real-time, and track delivery progress.*
 
 
 

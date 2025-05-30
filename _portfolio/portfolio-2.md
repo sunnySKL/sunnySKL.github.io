@@ -21,6 +21,9 @@ The goal of the system is to digitally manage last-mile deliveries, package stat
 ### Admin Dashboard
 ![Admin Dashboard](/3380pics/admin.png)
 
+### Manager Dashboard
+![Manager Dashboard](/3380pics/manager.png)
+
 ### Clerk View
 ![Clerk Dashboard](/3380pics/clerk.png)
 

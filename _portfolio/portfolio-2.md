@@ -15,20 +15,20 @@ The goal of the system is to digitally manage last-mile deliveries, package stat
 ### Home Page
 ![Home Page](/3380pics/home.png)
 
+### Customer View
+![Customer Dashboard](/3380pics/customer.png)
+
 ### Admin Dashboard
 ![Admin Dashboard](/3380pics/admin.png)
 
 ### Clerk View
-![Clerk View](/3380pics/clerk.png)
+![Clerk Dashboard](/3380pics/clerk.png)
 
 ### Customer Support View
-![Customer Support View](/3380pics/customer_sup.png)
-
-### Customer View
-![Customer View](/3380pics/customer.png)
+![Customer Support Dashboard](/3380pics/customer_sup.png)
 
 ### Driver View
-![Driver View](/3380pics/driver.png)
+![Driver Dashboard](/3380pics/driver.png)
 
 
 

@@ -16,27 +16,27 @@ The goal of the system is to digitally manage last-mile deliveries, package stat
 ![Home Page](/3380pics/home.png)  
 *Landing page providing user login access and an overview of system features like shipment, inventory, and support.*
 
-### Customer View  
+### Customer Dashboard  
 ![Customer Dashboard](/3380pics/customer.png)  
 *Portal for customers to send packages, track deliveries, manage profiles, purchase shop items, and submit support tickets.*
 
 ### Admin Dashboard  
 ![Admin Dashboard](/3380pics/admin.png)  
-*Admin panel with full system access, including user, facility, inventory, and vehicle management, plus detailed analytics.*
+*Admin panel with full system access, including user, facility, inventory, and vehicle management.*
 
 ### Manager Dashboard  
 ![Manager Dashboard](/3380pics/manager.png)  
 *Manager interface for overseeing facility operations, managing employees, viewing reports, and handling support tickets.*
 
-### Clerk View  
+### Clerk Dashboard  
 ![Clerk Dashboard](/3380pics/clerk.png)  
 *Clerk view for processing incoming packages, managing sales transactions, and scanning deliveries at facility checkpoints.*
 
-### Customer Support View  
+### Customer Support Dashboard  
 ![Customer Support Dashboard](/3380pics/customer_sup.png)  
 *Support dashboard for responding to submitted tickets, resolving user issues, and managing communication workflows.*
 
-### Driver View  
+### Driver Dashboard  
 ![Driver Dashboard](/3380pics/driver.png)  
 *Driver interface to manage assigned trips, update package statuses in real-time, and track delivery progress.*
 

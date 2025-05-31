@@ -20,10 +20,12 @@ Hi, I'm **Hung Liu**, a senior ungraduate pursing a Bachelor of Computer Science
 
 
 ## Academic Interests
-- Automata theory and computability
-- Machine learning models 
-- Stock screening automation and technical analysis
-- Optimization and algorithm design
+- Artificial intelligence and machine learning
+- Data analytics and visualization
+- Algorithm design and optimization
+- Applied statistical modeling
+- AI-driven automation and decision systems
+
 
 ## Achievements
 - Developed a full-stack postal service system with customer shipment tools, employee dashboards, trip and inventory management, and real-time tracking.

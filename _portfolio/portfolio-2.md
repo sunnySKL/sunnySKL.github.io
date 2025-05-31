@@ -22,19 +22,19 @@ The goal of the system is to digitally manage last-mile deliveries, package stat
 
 ### Admin Dashboard  
 ![Admin Dashboard](/3380pics/admin.png)  
-*Admin panel with full system access, including user, facility, inventory, and vehicle management.*
+*Admin panel with full system access, including user, facility, inventory, vehicle management, and receiving messages for other employees through the admin inbox.*
 
 ### Manager Dashboard  
 ![Manager Dashboard](/3380pics/manager.png)  
-*Manager interface for overseeing facility operations, managing employees, viewing reports, and handling support tickets.*
+*Manager interface for overseeing facility operations, managing employees, viewing reports, and managing trips.*
 
 ### Clerk Dashboard  
 ![Clerk Dashboard](/3380pics/clerk.png)  
-*Clerk view for processing incoming packages, managing sales transactions, and scanning deliveries at facility checkpoints.*
+*Clerk view for processing incoming packages, managing sales transactions, and tracking packages.*
 
 ### Customer Support Dashboard  
 ![Customer Support Dashboard](/3380pics/customer_sup.png)  
-*Support dashboard for responding to submitted tickets, resolving user issues, and managing communication workflows.*
+*Support dashboard for responding to submitted tickets and resolving user issues.*
 
 ### Driver Dashboard  
 ![Driver Dashboard](/3380pics/driver.png)  

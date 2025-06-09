@@ -17,10 +17,13 @@
   z-index: 20;
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+  @include container;
+  @include clearfix;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1em;
+  font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $x-large;

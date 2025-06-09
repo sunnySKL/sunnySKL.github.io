@@ -139,7 +139,7 @@ body {
   .archive .page,
   .archive .page__inner-wrap,
   .archive .page__content {
-    margin-left: 0px !important;
+    margin-left: 0 !important;
     margin-right: 0 !important;
     max-width: none !important;
     width: auto !important;

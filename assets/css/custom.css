@@ -116,7 +116,7 @@ body {
 
 @media (min-width: 900px) {
   #main {
-    margin-left: 300px;
+    margin-left: 320px;
     margin-right: 0;
     max-width: none !important;
     width: auto !important;

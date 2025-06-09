@@ -99,8 +99,3 @@ body {
     background-color: #1E3A8A;
 }
 
-@media (min-width: 900px) {
-  #main {
-    margin-left: 300px;
-  }
-}

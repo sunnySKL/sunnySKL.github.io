@@ -131,5 +131,26 @@ body {
   }
 }
 
+@media (min-width: 900px) {
+  #main,
+  #main > .archive,
+  #main > .archive,
+  .archive,
+  .archive .page,
+  .archive .page__inner-wrap,
+  .archive .page__content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    float: none !important;
+    text-align: left !important;
+    display: block !important;
+    clear: both !important;
+  }
+  #main {
+    margin-left: 300px !important;
+  }
+}
 
 

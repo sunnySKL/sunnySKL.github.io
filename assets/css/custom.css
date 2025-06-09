@@ -95,6 +95,20 @@ body {
     background-color: #3B82F6;
 }
 
+@media (min-width: 900px) {
+  .masthead,
+  #main {
+    margin-left: 300px; /* Same as sidebar width */
+  }
+  .masthead__inner-wrap {
+    max-width: none !important;
+    padding-left: 0 !important;
+  }
+  .greedy-nav {
+    justify-content: flex-start !important;
+  }
+}
+
 .dark-mode .button:hover {
     background-color: #1E3A8A;
 }

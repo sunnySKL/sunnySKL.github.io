@@ -98,7 +98,7 @@ body {
 @media (min-width: 900px) {
   .masthead,
   #main {
-    margin-left: 320px; /* Same as sidebar width */
+    margin-left: 300px; /* Same as sidebar width */
   }
   .masthead__inner-wrap {
     max-width: none !important;
@@ -116,7 +116,7 @@ body {
 
 @media (min-width: 900px) {
   #main {
-    margin-left: 320px;
+    margin-left: 300px;
     margin-right: 0;
     max-width: none !important;
     width: auto !important;
@@ -149,7 +149,7 @@ body {
     clear: both !important;
   }
   #main {
-    margin-left: 320px !important;
+    margin-left: 300px !important;
   }
 }
 

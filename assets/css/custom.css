@@ -132,9 +132,14 @@ body {
 }
 
 @media (min-width: 900px) {
-  .archive {
+  #main {
     margin-left: 300px !important;
-    margin-right: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    text-align: left !important;
+  }
+  #main > .archive {
+    margin-left: 0 !important;
     max-width: none !important;
     width: auto !important;
     text-align: left !important;

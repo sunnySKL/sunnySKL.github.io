@@ -70,7 +70,7 @@ After the delivery route is completed, any undelivered packages are automaticall
 
 ### Customer Support Dashboard  
 ![Customer Support Dashboard](/3380pics/customer_sup.png)  
-*Support dashboard for managing support tickets, resolving customer issues (including those escalated by staff), and communicating directly with employees via the admin inbox.*
+*Support dashboard for responding to submitted tickets and resolving user issues.*
 
 ### Driver/Pilot Dashboard  
 ![Driver/Pilot Dashboard](/3380pics/driver.png)  
@@ -82,7 +82,9 @@ After the delivery route is completed, any undelivered packages are automaticall
 ## Key Features:
 Role-Based Dashboards: Each user role has its own secure dashboard:
 
-Admins can manage users, inventory, reports, and system settings.
+Admins oversee the entire system, including user account management (adding or deleting employees and customers), inventory control (assigning allowed items and vehicles to each facility), and resolving escalated customer and employee issues via the admin inbox.
+
+Manager have direct control over their facility including employees, operational reports, create and track trips, manage the item shop content and its inventory, and choosing which vehicle to include in their delivery lineup.
 
 Employees (e.g., clerks, support, drivers) have job-specific interfaces.
 

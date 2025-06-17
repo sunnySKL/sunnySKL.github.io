@@ -100,10 +100,13 @@ Triggers & Automation: Triggers enforce business rules, such as auto-generating 
 
 
 ## Tech Stack:
-Backend: PHP (OOP), MySQL  
-Frontend: HTML, CSS, minimal JS, AJAX  
-Database: MySQL with Foreign Key Constraints, Triggers  
-Deployment: XAMPP (localhost)  
+Backend: PHP (OOP), MySQL
+
+Frontend: HTML, CSS, minimal JS, AJAX
+
+Database: MySQL with Foreign Key Constraints, Triggers
+
+Deployment: XAMPP (localhost)
 
 
 

@@ -80,7 +80,7 @@ After the delivery route is completed, any undelivered packages are automaticall
 
 
 ## Key Features:
-Role-Based Dashboards:Each user role has its own secure dashboard:
+Role-Based Dashboards: Each user role has its own secure dashboard:
 
 Admins can manage users, inventory, reports, and system settings.
 
@@ -88,22 +88,22 @@ Employees (e.g., clerks, support, drivers) have job-specific interfaces.
 
 Customers can send packages, track history, and submit support requests.
 
-Trip & Delivery Tracking:Trips can be created and assigned to drivers or pilots, linking to packages, vehicles, and facilities. Delivery status is updated live and historical tracking is stored per package.
+Trip & Delivery Tracking: Trips can be created and assigned to drivers or pilots, linking to packages, vehicles, and facilities. Delivery status is updated live and historical tracking is stored per package.
 
-Shop & Inventory Module:Each postal facility can run a shop. Shop employees can process sales, manage inventory, receive new stock, and generate daily sales reports. Low-stock alerts are triggered automatically.
+Shop & Inventory Module: Each postal facility can run a shop. Shop employees can process sales, manage inventory, receive new stock, and generate daily sales reports. Low-stock alerts are triggered automatically.
 
-Support Ticket System:Customers can file issues (lost, delayed, damaged). Support agents reply in threads, assign priorities, and track resolution status. Ticket response times and performance are logged.
+Support Ticket System: Customers can file issues (lost, delayed, damaged). Support agents reply in threads, assign priorities, and track resolution status. Ticket response times and performance are logged.
 
-Advanced Reporting Engine:Live reports include package volume, route efficiency, sales analytics, and inventory trends. AJAX-powered data loading ensures dynamic refresh with minimal delay.
+Advanced Reporting Engine: Live reports include package volume, route efficiency, sales analytics, and inventory trends. AJAX-powered data loading ensures dynamic refresh with minimal delay.
 
-Triggers & Automation:Triggers enforce business rules, such as auto-generating alerts for low stock, long trips, or first-time support responses.
+Triggers & Automation: Triggers enforce business rules, such as auto-generating alerts for low stock and when a package gets delivered to the receiver.
 
 
 ## Tech Stack:
-Backend: PHP (OOP), MySQL
-Frontend: HTML, CSS, minimal JS, AJAX
-Database: MySQL with Foreign Key Constraints, Triggers
-Deployment: XAMPP (localhost), SQL dump support for portability
+Backend: PHP (OOP), MySQL  
+Frontend: HTML, CSS, minimal JS, AJAX  
+Database: MySQL with Foreign Key Constraints, Triggers  
+Deployment: XAMPP (localhost)  
 
 
 

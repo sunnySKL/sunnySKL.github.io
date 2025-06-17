@@ -106,7 +106,7 @@ Frontend: HTML, CSS, minimal JS, AJAX
 
 Database: MySQL with Foreign Key Constraints, Triggers
 
-Deployment: XAMPP (localhost)
+Deployment: XAMPP (localhost), DigitalOcean
 
 
 

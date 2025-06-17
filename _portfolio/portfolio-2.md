@@ -54,7 +54,7 @@ After the delivery route is completed, any undelivered packages are automaticall
 
 ### Customer Dashboard  
 ![Customer Dashboard](/3380pics/customer.png)  
-*Portal for customers to send packages, track deliveries, manage profiles, purchase shop items, and submit support tickets.*
+*Portal for customers to send packages, track deliveries, manage profiles, purchase shop items online, and submit support tickets.*
 
 ### Admin Dashboard  
 ![Admin Dashboard](/3380pics/admin.png)  
@@ -66,15 +66,15 @@ After the delivery route is completed, any undelivered packages are automaticall
 
 ### Clerk Dashboard  
 ![Clerk Dashboard](/3380pics/clerk.png)  
-*Clerk view for processing incoming packages, managing sales transactions, and tracking packages.*
+*Clerk view for processing incoming packages, managing sales transactions, tracking packages, and creating a new shipment for walk-in customer.*
 
 ### Customer Support Dashboard  
 ![Customer Support Dashboard](/3380pics/customer_sup.png)  
-*Support dashboard for responding to submitted tickets and resolving user issues.*
+*Support dashboard for managing support tickets, resolving customer issues (including those escalated by staff), and communicating directly with employees via the admin inbox.*
 
 ### Driver/Pilot Dashboard  
 ![Driver/Pilot Dashboard](/3380pics/driver.png)  
-*Driver interface to manage assigned trips, update package statuses in real-time, and track delivery progress.*
+*Driver/Pilot interface to manage assigned trips, update package statuses in real-time, and track delivery progress.*
 
 
 

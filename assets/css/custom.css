@@ -122,8 +122,8 @@ body {
         position: fixed;
         top: 0;
         left: 0;
-        width: 270px;
-        max-width: 270px;
+        width: 250px;
+        max-width: 250px;
         height: 100vh;
         overflow-y: auto;
         display: block;
@@ -133,9 +133,13 @@ body {
         padding-top: 80px;
     }
 
+    .navbar {
+        padding-left: 30px;
+    }
+
     .masthead,
     #main {
-        margin-left: 270px;
+        margin-left: 255px;
     }
 
     .masthead__inner-wrap {
@@ -148,7 +152,7 @@ body {
     }
 
     #main {
-        margin-left: 270px;
+        margin-left: 255px;
         margin-right: 0;
         max-width: none !important;
         width: auto !important;

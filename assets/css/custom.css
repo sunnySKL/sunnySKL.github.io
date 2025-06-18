@@ -135,14 +135,15 @@ body {
 
     .navbar,
     .masthead,
-    #main {
-        margin-left: 250px;
+    #main,
+    .masthead__inner-wrap {
+        margin-left: 250px !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
 
-    .masthead__inner-wrap {
-        max-width: none !important;
+    .navbar,
+    .navbar * {
         padding-left: 0 !important;
         margin-left: 0 !important;
     }

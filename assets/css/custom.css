@@ -134,18 +134,19 @@ body {
     }
 
     .navbar {
-        margin-left: 250px;
-        padding-left: 0;
-    }
-
-    .masthead,
-    #main {
-        margin-left: 250px;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
     }
 
     .masthead__inner-wrap {
         max-width: none !important;
         padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .masthead,
+    #main {
+        margin-left: 250px;
     }
 
     .greedy-nav {

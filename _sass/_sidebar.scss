@@ -14,19 +14,16 @@
   margin-bottom: 1em;
   transition: all 0.3s ease-in-out;
 
-  @media screen and (max-width: $sidebar-screen-min-width) {
-    position: relative;
-    width: 100%;
-    padding: 1em;
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
+  position: relative;
+  width: 100%;
+  padding: 1em;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 
   @media screen and (min-width: $sidebar-screen-min-width) {
-    position: sticky;
-    top: $masthead-height;
-    height: calc(100vh - #{$masthead-height});
-    overflow-y: auto;
+    width: auto;
+    max-width: $sidebar-link-max-width;
+    margin-right: 2em;
     padding: 1em;
     background: #fff;
     box-shadow: 1px 0 3px rgba(0,0,0,0.1);

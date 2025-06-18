@@ -12,12 +12,18 @@
 
   @include clearfix();
   margin-bottom: 1em;
+  width: 100%;
+  max-width: 100%;
+  padding: 1em;
 
   @media screen and (min-width: $sidebar-screen-min-width) {
-    height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
-    position: fixed;
-    padding-top: $masthead-height;
+    position: sticky;
+    top: $masthead-height;
+    height: calc(100vh - #{$masthead-height});
+    overflow-y: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    -webkit-overflow-scrolling: touch;
   }
 
   @include breakpoint($large) {
@@ -25,6 +31,7 @@
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
+    padding-right: 1em;
 
     &:hover {
       opacity: 1;
@@ -33,7 +40,7 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 1em;
   }
 
   h2, h3, h4, h5, h6 {
@@ -161,6 +168,7 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
+  width: 100%;
 
   li:last-child {
     a {
@@ -174,6 +182,12 @@
 
   button {
     margin-bottom: 0;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: #fff;
+    cursor: pointer;
 
     @include breakpoint($large) {
       display: none;
@@ -191,9 +205,10 @@
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background: #fff;
-  z-index: -1;
+  z-index: 10;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
+  width: 100%;
 
   @include breakpoint($large) {
     display: block;

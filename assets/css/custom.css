@@ -139,7 +139,7 @@ body {
 
     .masthead,
     #main {
-        margin-left: 250px;
+        margin-left: 260px;
     }
 
     .masthead__inner-wrap {
@@ -152,7 +152,7 @@ body {
     }
 
     #main {
-        margin-left: 250px;
+        margin-left: 260px;
         margin-right: 0;
         max-width: none !important;
         width: auto !important;

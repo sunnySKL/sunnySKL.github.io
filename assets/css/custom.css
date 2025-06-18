@@ -134,12 +134,12 @@ body {
     }
 
     .navbar {
-        padding-left: 60px;
+        padding-left: 20px;
     }
 
     .masthead,
     #main {
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
     .masthead__inner-wrap {
@@ -152,7 +152,7 @@ body {
     }
 
     #main {
-        margin-left: 200px;
+        margin-left: 150px;
         margin-right: 0;
         max-width: none !important;
         width: auto !important;

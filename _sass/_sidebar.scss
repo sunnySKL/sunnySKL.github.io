@@ -17,16 +17,12 @@
   position: relative;
   width: 100%;
   padding: 1em;
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     width: auto;
     max-width: $sidebar-link-max-width;
     margin-right: 2em;
     padding: 1em;
-    background: #fff;
-    box-shadow: 1px 0 3px rgba(0,0,0,0.1);
   }
 
   @include breakpoint($large) {

@@ -133,19 +133,18 @@ body {
         padding-top: 80px;
     }
 
-    .navbar,
-    .masthead,
-    #main,
-    .masthead__inner-wrap {
-        margin-left: 250px !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+    .navbar {
+        padding-left: 30px;
     }
 
-    .navbar,
-    .navbar * {
+    .masthead,
+    #main {
+        margin-left: 255px;
+    }
+
+    .masthead__inner-wrap {
+        max-width: none !important;
         padding-left: 0 !important;
-        margin-left: 0 !important;
     }
 
     .greedy-nav {
@@ -153,6 +152,7 @@ body {
     }
 
     #main {
+        margin-left: 255px;
         margin-right: 0;
         max-width: none !important;
         width: auto !important;
@@ -184,6 +184,10 @@ body {
         text-align: left !important;
         display: block !important;
         clear: both !important;
+    }
+
+    #main {
+        margin-left: 300px !important;
     }
 }
 

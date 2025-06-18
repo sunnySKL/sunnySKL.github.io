@@ -159,18 +159,13 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
+  position: relative;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 
   li:last-child {
     a {
       margin-bottom: 0;
     }
-  }
-
-  @media screen and (max-width: $sidebar-screen-min-width) {
-    display: block;
-    width: 100%;
   }
 
   @include breakpoint($large) {
@@ -179,17 +174,6 @@
 
   button {
     margin-bottom: 0;
-    width: 100%;
-    padding: 0.5em;
-    background: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-
-    &:hover {
-      background: #e5e5e5;
-    }
 
     @include breakpoint($large) {
       display: none;
@@ -207,19 +191,9 @@
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background: #fff;
-  z-index: 100;
-  box-shadow: 0 2px 5px rgba(#000, 0.15);
+  z-index: -1;
+  box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
-  transition: all 0.3s ease-in-out;
-
-  @media screen and (max-width: $sidebar-screen-min-width) {
-    position: relative;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background: #f9f9f9;
-  }
 
   @include breakpoint($large) {
     display: block;

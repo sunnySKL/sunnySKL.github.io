@@ -17,7 +17,7 @@ Microsoft Office 365 Authentication:
 Only verified UH (University of Houston) users can log in through Microsoft Graph API integration.
 
 Role-Based Access Control:
-Supports multiple user roles including Student, Admin, and future expansion to Counselors, Directors, etc. Role-based route protection is enforced.
+Supports multiple user roles including Student, Admin, Counselors, Directors, and Supervisor. Role-based route protection is enforced.
 
 Form Submission & Drafts:
 Students can fill out forms such as the Special Circumstance Form, Instructor-Initiated Drop Form, Tution Exemption Form, and an Affidavit form, save drafts, or submit for approval.

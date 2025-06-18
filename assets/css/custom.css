@@ -133,14 +133,12 @@ body {
         padding-top: 80px;
     }
 
-    .navbar {
-        margin-left: 250px;
-        padding-left: 0 !important;
-    }
-
+    .navbar,
     .masthead,
     #main {
         margin-left: 250px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .masthead__inner-wrap {

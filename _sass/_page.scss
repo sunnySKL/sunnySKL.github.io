@@ -18,18 +18,33 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
   }
 
   .page__inner-wrap {
-    @include full();
+    @include clearfix;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    clear: both;
 
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      position: relative;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      clear: both;
     }
   }
 }
@@ -49,26 +64,14 @@
 }
 
 .page__content {
-
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
   }
 
-  p, li, dl {
-    font-size: 1em;
-  }
-
-  /* paragraph indents */
-  p {
-    margin: 0 0 $indent-var;
-
-    /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
-        text-indent: $indent-var;
-        margin-top: -($indent-var);
-      }
+  p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, pre, table {
+    @include breakpoint($large) {
+      max-width: 100%;
     }
   }
 
@@ -100,10 +103,65 @@
     font-size: $type-size-6;
   }
 
-  /* blockquote citations */
-  blockquote + .small {
-    margin-top: -1.5em;
-    padding-left: 1.25rem;
+  /* paragraph indents */
+  p {
+    margin: 0 0 $indent-var;
+
+    /* sibling indentation*/
+    @if $paragraph-indent == true {
+      & + p {
+        text-indent: $indent-var;
+        margin-top: -($indent-var);
+      }
+    }
+  }
+
+  /* blockquote indents */
+  blockquote {
+    margin: 0 0 $indent-var;
+    padding-left: $indent-var;
+    border-left: $indent-var solid $border-color;
+    font-size: $type-size-6;
+
+    /* last-child & first-child */
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /* code block indents */
+  pre {
+    margin: 0 0 $indent-var;
+    padding-left: $indent-var;
+    padding-right: $indent-var;
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    @include font-size(14);
+  }
+
+  /* list block indents */
+  ul, ol {
+    margin: 0 0 $indent-var;
+    padding-left: $indent-var;
+  }
+
+  li {
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: $indent-var;
+    }
+
+    > ul, > ol {
+      margin-left: 0;
+    }
+  }
+
+  /* table indents */
+  table {
+    margin: 0 0 $indent-var;
+    width: 100%;
   }
 }
 
@@ -111,8 +169,10 @@
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
-  animation: intro 0.3s both;
-  animation-delay: 0.25s;
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
 
   &--overlay {
     position: relative;
@@ -122,8 +182,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: intro 0.3s both;
-    animation-delay: 0.25s;
+    -webkit-animation: intro 0.3s both;
+            animation: intro 0.3s both;
+    -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
 
     a {
       color: #fff;
@@ -179,7 +241,7 @@
   text-align: right;
   z-index: 5;
   opacity: 0.5;
-  border-radius: $border-radius 0 $border-radius 0;
+  border-radius: $border-radius 0 0 0;
 
   @include breakpoint($large) {
     padding: 5px 10px;
@@ -267,7 +329,7 @@
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid $light-gray;
+  border: 1px solid mix(#fff, $border-color, 25%);
   border-radius: $border-radius;
 
   &:hover {
@@ -276,27 +338,97 @@
   }
 }
 
+.taxonomy__section {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+
+  &:not(:last-child) {
+    border-bottom: solid 1px $border-color;
+  }
+
+  .archive__item-title {
+    margin-top: 0;
+  }
+
+  .archive__subtitle {
+    clear: both;
+    border: 0;
+  }
+
+  + .taxonomy__section {
+    margin-top: 2em;
+  }
+}
+
+.taxonomy__title {
+  margin-bottom: 0.5em;
+  color: lighten($text-color, 60%);
+}
+
+.taxonomy__count {
+  color: lighten($text-color, 50%);
+}
+
+.taxonomy__index {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1.414em 0;
+  padding: 0;
+  font-size: 0.75em;
+  list-style: none;
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.back-to-top {
+  display: block;
+  clear: both;
+  color: mix(#fff, $gray, 25%);
+  font-size: 0.6em;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration: none;
+}
 
 /*
    Comments
    ========================================================================== */
 
 .page__comments {
-  @include full();
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
 }
 
 .page__comments-title {
-  margin-top: 2rem;
+  margin-top: 2em;
   margin-bottom: 10px;
-  padding-top: 2rem;
+  padding-top: 2em;
   font-size: $type-size-6;
   border-top: 1px solid $border-color;
   text-transform: uppercase;
 }
 
 .page__comments-form {
-  padding: 1em;
-  background: $lighter-gray;
+  -webkit-transition: $global-transition;
   transition: $global-transition;
 
   &.disabled {
@@ -368,6 +500,7 @@
   margin: 0;
 
   a {
+    color: inherit;
     text-decoration: none;
   }
 }
@@ -378,14 +511,21 @@
    ========================================================================== */
 
 .page__related {
+  @include clearfix();
+  float: left;
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
-  @include clearfix();
-  float: left;
 
   @include breakpoint($large) {
-    @include pre(2.5 of 12);
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
   }
 
   a {

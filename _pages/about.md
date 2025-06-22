@@ -12,11 +12,8 @@ Hi, I'm **Hung Liu**, a senior ungraduate pursing a Bachelor of Computer Science
 ## Skills and Expertise
 - **Programming Languages**: Python, PHP, SQL, C++, C  
 - **Web Development**: HTML, CSS, JavaScript, Jinja2, Flask, role-based routing, Microsoft OAuth (Graph API)  
-- **Database Design**: PostgreSQL, MySQL, schema normalization (1NF–3NF), foreign keys, ER modeling, JSON column storage  
-- **Authentication & Authorization**: Office365 OAuth 2.0 login, session-based authentication, role-based access control  
-- **PDF Generation & Workflow Logic**: Dynamic LaTeX PDF generation, signature/image embedding, multi-step approval workflow  
-- **Tools and Technologies**: Docker, Git/GitHub, MySQL Workbench, pgAdmin, Railway (cloud deployment), LaTeX  
-- **Project Experience**: Full-stack academic request management system with CRUD operations, dashboards, form routing  
+- **Database Design**: PostgreSQL, MySQL
+- **Tools and Technologies**: Docker, Git/GitHub, MySQL Workbench, pgAdmin, Railway and DigitalOcean(cloud deployment), LaTeX  
 
 
 ## Academic Interests

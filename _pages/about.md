@@ -13,7 +13,7 @@ Hi, I'm **Hung Liu**, a senior ungraduate pursing a Bachelor of Computer Science
 - **Programming Languages**: Python, PHP, SQL, C++, C  
 - **Web Development**: HTML, CSS, JavaScript, Jinja2, Flask, role-based routing, Microsoft OAuth (Graph API)  
 - **Database Design**: PostgreSQL, MySQL
-- **Tools and Technologies**: Docker, Git/GitHub, MySQL Workbench, pgAdmin, Railway and DigitalOcean(cloud deployment), LaTeX  
+- **Tools and Technologies**: Docker, Git/GitHub, MySQL Workbench, Railway and DigitalOcean (cloud deployment), LaTeX  
 
 
 ## Academic Interests
